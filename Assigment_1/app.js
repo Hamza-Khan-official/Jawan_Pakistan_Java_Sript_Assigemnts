@@ -68,7 +68,6 @@ let Q_uantity = "5 T-shirt ";
 
 document.write(visitor_Name + product_Title + Q_uantity + "On XYZ Clothing Store");
 
-// Q5.
 
 
 //      CHAPTER_#_4 (LEGEL AND ILLEGAL)
@@ -169,6 +168,18 @@ document.write("4 x 8 = "+ table_main_num * 8 + "<br>");
 document.write("4 x 9 = "+ table_main_num * 9 + "<br>");
 document.write("4 x 10 = "+ table_main_num * 10 + "<br>");
 
+// Q6.
+let celsius = +prompt("Enter your Celsius");
+fahrenheit = (celsius * 9/5) + 32;
+document.write(celsius," <sup>o</sup>","C is" , fahrenheit," <sup>o</sup>","F ", "</br>");
+
+
+let fahrenheitInput  = +prompt("Enter your Fahrenheit");
+celsiusConverted  = (fahrenheitInput  -32 )* 5/9
+document.write(fahrenheitInput," <sup>o</sup>","F is ",celsiusConverted,"<sup>o</sup>","C" , "</br>");
+
+
+
 // // Q7.
 let price_of_item_1 = 650;
 let price_of_item_2 = 100;
@@ -258,7 +269,7 @@ document.write("result :" + result +"<br>");
 let greet_user = prompt("Enter your name...");
 document.write("Hello "+greet_user);
 
-// Q4.
+// Q5.
 let table_num = 5;
 
 document.write("Table of "+ table_num + "<br>");
@@ -274,7 +285,7 @@ document.write( table_num +" x 9 = "+ table_num * 9 + "<br>");
 document.write( table_num +" x 10 = "+ table_num * 10 + "<br>");
 
 
-// Q5.
+// Q6.
 let English = "Engligh";
 let Urdu = "Urdu";
 let Math  = "Math";
