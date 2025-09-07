@@ -226,11 +226,30 @@ if (operation === "+"){
 document.write(result);
 
 
-// CHAPTER 12-13  (IF ELSE AND ELSE IF STATMENTS)
+// // CHAPTER 12-13  (IF ELSE AND ELSE IF STATMENTS)
+
+// Q1.
+let input_char = prompt("enter a character");
+let asci_char = input_char.charCodeAt(0);
+let asci_message;
+
+if(asci_char >= 48 && asci_char <= 57 ){
+    asci_message = "Number";
+
+}else if (asci_char >= 65 && asci_char <= 90 ){
+    asci_message = "Uppercase Letter";
+
+}else if (asci_char >= 97 && asci_char <= 122 ){
+    asci_message = "Lowercase Letter";
+
+}else{
+    asci_message = "Invalid / Symbol";
+};
+
+document.write(asci_message);
 
 
-
-// Q2.
+// // Q2.
 let first_number_check = +prompt("Enter a first Number");
 let Second_number_check = +prompt("Enter a Second Number");
 let message_number_check;
@@ -246,7 +265,7 @@ if (first_number_check > Second_number_check){
 
 document.write(message_number_check);
 
-// Q3.
+// // Q3.
 let number_check_ = +prompt("Enter a Number");
 let number_check_message;
 
@@ -266,7 +285,7 @@ if(number_check_ > 0 ){
 document.write(number_check_message);
 
 
-// Q4.
+// // Q4.
 let take_character = prompt("enter a character").toLowerCase();
 let isvowel;
 
@@ -279,7 +298,7 @@ if(take_character === "a" || take_character === "e" || take_character === "i"||
 }
 document.write(isvowel);
 
-// Q5.
+// // Q5.
 let correct_passward = "hamza_123";
 let user_passward = prompt("Enter your passward");
 let passward_message;
@@ -298,7 +317,7 @@ if( user_passward === null || user_passward === ""){
 };
 document.write(passward_message);
 
-// Q6.
+// // Q6.
 let hour = 18;
 let greeting;
 
@@ -310,7 +329,7 @@ if(hour < 18){
 document.write(greeting);
 
 
-// Q7.
+// // Q7.
 let take_time = +prompt("Enter You Time");
 let time_message;
 
@@ -327,3 +346,6 @@ if(take_time >= 0 && take_time < 1200 ){
     time_message = "Good night!"
 }
 document.write(time_message);
+
+
+
