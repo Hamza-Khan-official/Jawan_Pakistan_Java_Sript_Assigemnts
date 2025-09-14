@@ -53,20 +53,73 @@ for (let p = 0; p < student.length; p++) {
 
 // Q9.
 let color_names = ["red", "yellow", "green"];
-document.write(color_names);
+console.log(color_names);
 
 for (let c=0; c < color_names.length; c++){
     document.write(color_names[c] + "</br>");
-}
+};
 
+
+// a
 let user_color = prompt("enter a color");
-
-color_names.push(user_color);
+color_names.unshift(user_color);
 
 document.write("<h2>Updated Code </h2>")
 for (let c=0; c < color_names.length; c++){
     document.write(color_names[c] + "</br>");
 }
+
+
+// b
+let user_color_ = prompt("enter a color");
+color_names.push(user_color_);
+
+document.write("<h2>Updated Code </h2>")
+for (let c=0; c < color_names.length; c++){
+    document.write(color_names[c] + "</br>");
+}
+
+// c
+let user_colors = prompt("enter a two more color");
+color_names.unshift(user_colors);
+
+document.write("<h2>Updated Code </h2>")
+for (let c=0; c < color_names.length; c++){
+    document.write(color_names[c] + "</br>");
+}
+
+// d.
+let first_del = color_names;
+first_del.pop();
+document.write("<h2>Updated Code </h2>")
+for (let c=0; c < color_names.length; c++){
+    document.write(color_names[c] + "</br>");
+}
+
+// e
+let last_del = color_names;
+last_del.shift();
+document.write("<h2>Updated Code </h2>")
+for (let c=0; c < color_names.length; c++){
+    document.write(color_names[c] + "</br>");
+};
+
+// f
+let add_color = color_names.length; 
+let index_color = +prompt("enter a index which you add a color");
+
+if(index_color === add_color ){
+    new_color = prompt("emter a color name");
+    after_add_color =  color_names.splice(new_color);
+}else{
+    "some thing went wrong!";
+};
+
+for(let i=0; i<after_add_color; after_add_color++){
+    document.write(after_add_color, "</br>");
+}
+
+
 
 // Q10.
 
@@ -80,7 +133,7 @@ for(let d=0; d=5; d++){
 document.write("<h3>Your Cities:</h3>")
 let city = ["karachi", "islamabad", "lahore", "quetta", "peshawar"];
 
-for(let cites=0; cites <br city.length; cites++){
+for(let cites=0; cites < city.length; cites++){
   document.write(city[cites] + " ");
 
 };
@@ -90,7 +143,7 @@ let Selected_cities = prompt("enter your selectd cities");
 
 city = [Selected_cities];
 
-for(let cites=0; cites <br city.length; cites++){
+for(let cites=0; cites <city.length; cites++){
   document.write(city[cites] + "</br>");
 };
 
