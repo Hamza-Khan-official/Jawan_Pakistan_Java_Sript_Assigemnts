@@ -65,3 +65,47 @@ if (time_seven > 11 && time_seven < 25) {
 // Q8.
 let laterDate = new Date(2020, 11, 31);
 console.log("Later date:", laterDate);
+
+// Q14
+let months_bill = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+let month = new Date().getMonth();
+
+
+let cus_name = "ABC Customer";
+let months_bill_ = months_bill[month];
+let units_num = 410;
+let per_unit = 16;
+document.write("Customer Name: ", cus_name, "</br>");
+document.write("Month: ", months_bill_, "</br>");
+document.write("Number of units: ", units_num, "</br>");
+document.write("Changes per unit: ", per_unit, "</br>");
+
+let only_bill = 6560;
+let late_payment = 350;
+let late_bill = only_bill + late_payment;
+let after_date;
+
+let date_ = new Date().getDate();
+
+if (date_ > 10) {
+    after_date = only_bill+late_payment;
+};
+
+
+document.write("Net Amount Payable (within Due Date): ",only_bill , "</br>");
+document.write("Late Payment surchage: ", late_payment,"</br>");
+document.write("Gross Amount Payable (after Due Date): ", after_date ,"</br>");
+
