@@ -50,3 +50,11 @@
 
 
 // Q5.
+function squre(number){
+    let user_num = number;
+    let square_nums = number * number
+    console.log(square_nums);
+    return user_num;
+}
+squre(prompt("Enter a number"));
+console.log("Your Number is", user_num);
