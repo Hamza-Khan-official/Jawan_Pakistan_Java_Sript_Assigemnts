@@ -1,12 +1,12 @@
 var button;
 
-function detailed_button() {
+function detailed_button(id) {
 
-    button = document.getElementById('button_one_for_card');
+    button = document.getElementById(id);
     button.className = "card-body d-flex justify-content-center";
 };
 
-function detailed_button_close(){
-    button = document.getElementById('button_one_for_card');
+function detailed_button_close(id){
+    button = document.getElementById(id);
     button.className = "card-body d-flex justify-content-center d-none";
 }

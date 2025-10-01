@@ -67,11 +67,11 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
@@ -86,64 +86,67 @@
 
     <!-- Cards  -->
 
-    <div class="d-flex m-5">
+    <div class="d-flex m-5 justify-content-center">
         <!-- Cards_one -->
-        <div class="card m-4" onmouseover="detailed_button()" onmouseout="detailed_button_close()" style="width: 12rem; height:285px ;">
+        <div class="card m-4" onmouseover="detailed_button('button_one_for_card')"
+            onmouseout="detailed_button_close('button_one_for_card')" style="width: 12rem; height:285px ;">
             <img src="images/mouse.jpg" class="card-img-top" alt="...">
             <h5 class="card-text mx-3">Mouse</h5>
             <div id="button_one_for_card" class="card-body d-flex justify-content-center d-none">
-                <BUTton class="btn btn-primary">more details</BUTton>
+                <a href="prosucts.html"><BUTton class="btn btn-primary">more details</BUTton></a>
             </div>
         </div>
 
         <!-- Cards_two -->
-        <div class="card m-4" onmouseover="detailed_button()" onmouseout="detailed_button_close()" style="width: 12rem; height:285px ;">
-            <img src="images/mouse.jpg" class="card-img-top" alt="...">
-            <h5 class="card-text mx-3">Mouse</h5>
-            <div id="button_one_for_card" class="card-body d-flex justify-content-center d-none">
+        <div class="card m-4" onmouseover="detailed_button('button_two_for_card')"
+            onmouseout="detailed_button_close('button_two_for_card')" style="width: 12rem; height:285px ;">
+            <img src="images/keyboard.jpg" class="card-img-top" alt="...">
+            <h5 class="card-text mx-3">keyboard</h5>
+            <div id="button_two_for_card" class="card-body d-flex justify-content-center d-none">
                 <BUTton class="btn btn-primary">more details</BUTton>
             </div>
         </div>
 
         <!-- Cards_three -->
-        <div class="card m-4" style="width: 12rem; height: ;">
-            <img src="images/mouse.jpg" class="card-img-top" alt="...">
-            <h5 class="card-text mx-3">Mouse</h5>
+        <div class="card m-4" onmouseover="detailed_button('button_three_for_card')"
+            onmouseout="detailed_button_close('button_three_for_card')" style="width: 12rem; height:285px ;">
+            <img src="images/Dekstop.jpg" class="card-img-top" alt="...">
+            <h5 class="card-text mx-3">Dekstop</h5>
 
-            <div id="button_one_for_card" class="card-body d-flex justify-content-center d-none">
+            <div id="button_three_for_card" class="card-body d-flex justify-content-center d-none">
                 <BUTton class="btn btn-primary">more details</BUTton>
             </div>
         </div>
     </div>
 
+    <div class="d-flex m-5 justify-content-center">
 
-    <div class="d-flex m-5">
-        <!-- Cards_one -->
-        <div class="card m-4" style="width: 12rem; height: ;">
-            <img src="images/mouse.jpg" class="card-img-top" alt="...">
-            <h5 class="card-text mx-3">Mouse</h5>
-
-            <div id="button_one_for_card" class="card-body d-flex justify-content-center d-none">
+        <!-- Cards_four -->
+        <div class="card m-4" onmouseover="detailed_button('button_four_for_card')"
+            onmouseout="detailed_button_close('button_four_for_card')" style="width: 12rem; height:285px ;">
+            <img src="images/audio.jpg" class="card-img-top" alt="...">
+            <h5 class="card-text mx-3">Audio</h5>
+            <div id="button_four_for_card" class="card-body d-flex justify-content-center d-none">
                 <BUTton class="btn btn-primary">more details</BUTton>
             </div>
         </div>
 
-        <!-- Cards_two -->
-        <div class="card m-4" style="width: 12rem; height: ;">
-            <img src="images/mouse.jpg" class="card-img-top" alt="...">
-            <h5 class="card-text mx-3">Mouse</h5>
-
-            <div id="button_one_for_card" class="card-body d-flex justify-content-center d-none">
+        <!-- Cards_five -->
+        <div class="card m-4" onmouseover="detailed_button('button_five_for_card')"
+            onmouseout="detailed_button_close('button_five_for_card')" style="width: 12rem; height:285px ;">
+            <img src="images/webcam.jpg" class="card-img-top" alt="...">
+            <h5 class="card-text mx-3">Webcam</h5>
+            <div id="button_five_for_card" class="card-body d-flex justify-content-center d-none">
                 <BUTton class="btn btn-primary">more details</BUTton>
             </div>
         </div>
 
-        <!-- Cards_three -->
-        <div class="card m-4" style="width: 12rem; height: ;">
-            <img src="images/mouse.jpg" class="card-img-top" alt="...">
-            <h5 class="card-text mx-3">Mouse</h5>
-
-            <div id="button_one_for_card" class="card-body d-flex justify-content-center d-none">
+        <!-- Cards_six -->
+        <div class="card m-4" onmouseover="detailed_button('button_six_for_card')"
+            onmouseout="detailed_button_close('button_six_for_card')" style="width: 12rem; height:285px ;">
+            <img src="images/Device.jpg" class="card-img-top" alt="...">
+            <h5 class="card-text mx-3">Device</h5>
+            <div id="button_six_for_card" class="card-body d-flex justify-content-center d-none">
                 <BUTton class="btn btn-primary">more details</BUTton>
             </div>
         </div>
@@ -164,7 +167,7 @@
             <img src="images/mouse.jpg" class="card-img-top" alt="...">
             <h5 class="card-text mx-3">Mouse</h5>
 
-            <div id="button_one_for_card" class="card-body d-flex justify-content-center d-none">
+            <div id="button_five_for_card" class="card-body d-flex justify-content-center d-none">
                 <BUTton class="btn btn-primary">more details</BUTton>
             </div>
         </div>
@@ -176,12 +179,79 @@
 
     <!-- footer opening -->
 
-    <!-- <div class="bg-dark text-white">
-        <h4>Mouse</h4>
-        <p>Bluetooth + 2.4G <br>    2.4G Wireless Mouse <br>    Wired Mouse</p>
-        <p></p>
-        <p></p>
-    </div> -->
+    <div class="bg-dark text-white d-flex" style="height: 300px;">
+
+        <div class="m-5">
+            <h4>Mouse</h4>
+            <div class="text-white-50">
+                <p>Bluetooth + 2.4G <br></p>
+                <p>2.4G Wireless <br> Mouse</p>
+                <p>Wired Mouse</p>
+            </div>
+        </div>
+
+        <div class="m-5">
+            <h4>Keyboard</h4>
+            <div class="text-white-50">
+                <p>Bluetooth / 2.4G <br> Keyboard</p>
+                <p> Wired Keyboard</p>
+            </div>
+        </div>
+
+        <div class="m-5">
+            <h4>Desktop</h4>
+            <div class="text-white-50">
+                <p>Bluetooth / 2.4G <br> Dekstop</p>
+                <p> Wired Dekstop</p>
+            </div>
+        </div>
+
+        <div class="m-5">
+            <h4>Audio</h4>
+            <div class="text-white-50">
+                <p>Bluetooth <br>Headphone</p>
+                <p>Headphone</p>
+                <p>TWS</p>
+                <p>Earphone</p>
+                <p>Cable</p>
+            </div>
+        </div>
+
+
+        <div class="m-5">
+            <h4>Webcam</h4>
+            <div class="text-white-50">
+                <p>UHD 2160P(4K)</p>
+                <p>HD 1080P</p>
+                <p>HD 720P</p>
+                <p>480P</p>
+            </div>
+        </div>
+
+        <div class="m-5">
+            <h4>Device</h4>
+            <div class="text-white-50">
+                <p>USB HUB</p>
+                <p>Mouse Pad</p>
+                <p>Laser Pen</p>
+                <p>Microphone</p>
+            </div>
+        </div>
+
+
+        <div class="m-5">
+            <h4>SUPPORT</h4>
+            <div class="text-white-50">
+                <p>Contact Us</p>
+                <p>Tech Support</p>
+                <p>FAQs</p>
+                <p>Download</p>
+            </div>
+        </div>
+
+
+
+    </div>
 
     <!-- footer Closing -->
 
