@@ -10,6 +10,7 @@
 </head>
 
 <link rel="stylesheet" href="produtc.css">
+<link rel="stylesheet" href="style.css">
 
 <body>
 
@@ -32,7 +33,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Contact US</a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               all Products
             </a>
@@ -41,7 +42,7 @@
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -51,17 +52,18 @@
   <div class="d-flex">
 
 
+
     <!-- Image Slider Opening-->
-    <div id="carouselExample" class="carousel slide w-25 image_Slider">
+    <div id="carouselExample" class="carousel slide w-25 image_Slider" style="height: 300px;">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/carosel_2.jpg" class="d-block w-100" alt="...">
+          <img src="images/mouse.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="images/mouse.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="images/mouse.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -76,11 +78,31 @@
     <!-- Image Slider Closing-->
 
     <!-- product Name  -->
-    <div class="bg-success">
-      <p>Mouse</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ea ipsam quaerat suscipit rerum, quia eum iste
-        quos. Aut qui voluptate inventore ut quo deserunt suscipit. Explicabo nobis delectus dolore!</p>
+    <div id="product_des" class="">
+      <h2>Mouse</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ea ipsam quaerat dolore!</p>
+
+      <br><br><br><br><br><br><br><br><br>
+
+      <p><strong>Qunatity</strong></p>
+      <input type="number" value="1" min="1" max="10">
+
+      <div class="d-flex">
+        <h2 class="text-danger">$1099</h2>
+        <sub>
+          <h4 class=""><del>1299</del></h4>
+        </sub>
+      </div>
+      <br><br>
+      <div class="d-grid col-12 ">
+        <button class="btn btn-success rounded-4" type="button">Add to Cart</button>
+      </div>
+
+      <br><br><br>
     </div>
+
+
+
 
   </div>
 
