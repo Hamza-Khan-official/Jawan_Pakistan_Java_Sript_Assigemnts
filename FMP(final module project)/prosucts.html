@@ -120,6 +120,47 @@
       <p><strong>Color:</strong></p>
 
       <button type="button" class="btn btn-dark rounded-circle text-black balck_color">b</button>
+      <!-- tech  spechs button -->
+      <br><br>
+      <div id="tech_specs_button_main" class="d-grid col-6 ">
+        <button id="tech_specs_button" class="rounded-3" type="button">Specs & Details &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; <span id="tech_specs_button_plus">+</span></button>
+      </div>
+
+      <!-- tech  spechs details -->
+
+      <br>
+      <div id="tech_spechs_detail_"  onclick="tech_spechs_detail_open()">
+        <ul>
+          <li>Model: FG12, FG12S</li>
+          <li>Type: Wireless</li>
+          <li>Connection: 2.4G Hz</li>
+          <li>Operating Range: 10-15m</li>
+          <li>Ergonomic Design: Symmetric</li>
+          <li>Sensor: Optical</li>
+          <li>Resolution: 1200 DPI</li>
+          <li>Report Rate: 125Hz</li>
+          <li>Buttons No.: 3</li>
+          <li>Receiver: Nano USB Receiver</li>
+          <li>Battery: 1AA Alkaline Battery</li>
+          <li>Size: 108(L) x 64(W) x 35(H) mm</li>
+          <li>Net Weight: 83 g (w/ battery)</li>
+          <li>System Requirements: Windows 10/11</li>
+        </ul>
+
+
+      </div>
+
+      <script>
+        function tech_spechs_detail_open() {
+          console.log("Div clicked ✅");
+          var tech_spechs = document.getElementById('tech_spechs_detail_');
+          tech_spechs.style.display = "block";  // ab wo visible ho jayega
+        }
+      </script>
+
+
+
 
       <br><br><br><br><br><br><br><br><br>
 
@@ -146,90 +187,93 @@
 
 
 
-  
-    <!-- footer opening -->
 
-    <div class="bg-dark text-white d-flex" style="height: 300px;">
+  <!-- footer opening -->
 
-        <div class="m-5">
-            <h4>Mouse</h4>
-            <div class="text-white-50">
-                <p>Bluetooth + 2.4G <br></p>
-                <p>2.4G Wireless <br> Mouse</p>
-                <p>Wired Mouse</p>
-            </div>
-        </div>
+  <div class="bg-dark text-white d-flex" style="height: 300px;">
 
-        <div class="m-5">
-            <h4>Keyboard</h4>
-            <div class="text-white-50">
-                <p>Bluetooth / 2.4G <br> Keyboard</p>
-                <p> Wired Keyboard</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Desktop</h4>
-            <div class="text-white-50">
-                <p>Bluetooth / 2.4G <br> Dekstop</p>
-                <p> Wired Dekstop</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Audio</h4>
-            <div class="text-white-50">
-                <p>Bluetooth <br>Headphone</p>
-                <p>Headphone</p>
-                <p>TWS</p>
-                <p>Earphone</p>
-                <p>Cable</p>
-            </div>
-        </div>
-
-
-        <div class="m-5">
-            <h4>Webcam</h4>
-            <div class="text-white-50">
-                <p>UHD 2160P(4K)</p>
-                <p>HD 1080P</p>
-                <p>HD 720P</p>
-                <p>480P</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Device</h4>
-            <div class="text-white-50">
-                <p>USB HUB</p>
-                <p>Mouse Pad</p>
-                <p>Laser Pen</p>
-                <p>Microphone</p>
-            </div>
-        </div>
-
-
-        <div class="m-5">
-            <h4>SUPPORT</h4>
-            <div class="text-white-50">
-                <p>Contact Us</p>
-                <p>Tech Support</p>
-                <p>FAQs</p>
-                <p>Download</p>
-            </div>
-        </div>
-
-
-
+    <div class="m-5">
+      <h4>Mouse</h4>
+      <div class="text-white-50">
+        <p>Bluetooth + 2.4G <br></p>
+        <p>2.4G Wireless <br> Mouse</p>
+        <p>Wired Mouse</p>
+      </div>
     </div>
 
-    <!-- footer Closing -->
+    <div class="m-5">
+      <h4>Keyboard</h4>
+      <div class="text-white-50">
+        <p>Bluetooth / 2.4G <br> Keyboard</p>
+        <p> Wired Keyboard</p>
+      </div>
+    </div>
+
+    <div class="m-5">
+      <h4>Desktop</h4>
+      <div class="text-white-50">
+        <p>Bluetooth / 2.4G <br> Dekstop</p>
+        <p> Wired Dekstop</p>
+      </div>
+    </div>
+
+    <div class="m-5">
+      <h4>Audio</h4>
+      <div class="text-white-50">
+        <p>Bluetooth <br>Headphone</p>
+        <p>Headphone</p>
+        <p>TWS</p>
+        <p>Earphone</p>
+        <p>Cable</p>
+      </div>
+    </div>
 
 
+    <div class="m-5">
+      <h4>Webcam</h4>
+      <div class="text-white-50">
+        <p>UHD 2160P(4K)</p>
+        <p>HD 1080P</p>
+        <p>HD 720P</p>
+        <p>480P</p>
+      </div>
+    </div>
+
+    <div class="m-5">
+      <h4>Device</h4>
+      <div class="text-white-50">
+        <p>USB HUB</p>
+        <p>Mouse Pad</p>
+        <p>Laser Pen</p>
+        <p>Microphone</p>
+      </div>
+    </div>
+
+
+    <div class="m-5">
+      <h4>SUPPORT</h4>
+      <div class="text-white-50">
+        <p>Contact Us</p>
+        <p>Tech Support</p>
+        <p>FAQs</p>
+        <p>Download</p>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- footer Closing -->
+
+
+  <script src="product.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

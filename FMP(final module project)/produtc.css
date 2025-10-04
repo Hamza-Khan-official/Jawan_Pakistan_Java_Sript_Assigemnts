@@ -15,3 +15,21 @@
     border: solid 3px yellow ;
 }
 
+#tech_specs_button_main{
+
+}
+
+#tech_specs_button{
+    color: white;
+    background-color: grey;
+}
+
+#tech_specs_button_plus{
+    font-size: 20px;
+}
+
+#tech_spechs_detail_{
+    background-color: rgb(243, 242, 242);
+    border: 2px solid black;
+    border-radius: 15px;
+}
